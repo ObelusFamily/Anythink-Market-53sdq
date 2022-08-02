@@ -74,7 +74,7 @@ UserSchema.methods.toAuthJSON = function() {
     email: this.email,
     token: this.generateJWT(),
     bio: this.bio,
-    image: this.image || "https://github.com/cnu1812/Anythink-Market-53sdq/blob/main/frontend/public/placeholder.png?raw=true",
+    image: this.image || "placeholder.png",
     role: this.role
   };
 };

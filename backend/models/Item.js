@@ -49,7 +49,7 @@ ItemSchema.methods.toJSONFor = function(user) {
     slug: this.slug,
     title: this.title,
     description: this.description,
-    image: this.image || "https://github.com/cnu1812/Anythink-Market-53sdq/blob/main/frontend/public/placeholder.png?raw=true",
+    image: this.image || "placeholder.png",
     createdAt: this.createdAt,
     updatedAt: this.updatedAt,
     tagList: this.tagList,
