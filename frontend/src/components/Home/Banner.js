@@ -13,7 +13,6 @@ const Banner = (props) => {
       payload: { searchTerm: event.target.value },
     });
   };
-
   return (
     <div className="banner text-white">
       <div className="container p-4 text-center">
