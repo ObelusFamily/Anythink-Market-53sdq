@@ -81,11 +81,11 @@ const reducer = (state = {}, action) => {
     case PROFILE_PAGE_UNLOADED:
     case PROFILE_FAVORITES_PAGE_UNLOADED:
       return {};
-      case SEARCH_TERM:
-        return {
-          ...state,
-          searchTerm: action.payload.searchTerm,
-        };
+    case SEARCH_TERM:
+      return {
+        ...state,
+        searchTerm: action.payload.searchTerm,
+      };
     default:
       return state;
   }

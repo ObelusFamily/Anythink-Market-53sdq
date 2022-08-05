@@ -226,7 +226,6 @@ router.delete("/:item", auth.required, function (req, res, next) {
     })
     .catch(next);
 });
-
 // Favorite an item
 router.post("/:item/favorite", auth.required, function (req, res, next) {
   var itemId = req.item._id;
@@ -333,5 +332,4 @@ router.delete(
     }
   }
 );
-
 module.exports = router;
