@@ -17,7 +17,6 @@ const ItemList = (props) => {
       item.title.toLowerCase().includes(props.searchTerm.toLowerCase().trim())
     );
   }
-
   return (
     <div className="container py-2">
       <div className="row">
